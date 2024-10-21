@@ -1,4 +1,4 @@
-/* empty css                                */
+/* empty css                                    */
 
 var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -15,11 +15,17 @@ var aos = {exports: {}};
 var aosExports = aos.exports;
 const Aos = /*@__PURE__*/getDefaultExportFromCjs(aosExports);
 
+// This project uses Animate.css
+// License: MIT License
+// Copyright (c) 2014 Daniel Eden
+// Full license text in LICENSE file.
+
 console.log("What?");
 console.log("Hello world, from main.js!");
 if (typeof window !== "undefined") {
   // Put code that runs ONLY in the browser here -- this is most likely where
   // MOST of your code should go.
+  
   console.log("Hello world, from main.js!");
   Aos.init();
 
