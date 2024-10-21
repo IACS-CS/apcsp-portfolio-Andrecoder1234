@@ -1,0 +1,58 @@
+--- 
+import Page from "../components/project.astro"; 
+---
+
+<project title="Acknowledgment">
+  <!-- Style for Acknowledgment page -->
+  <style>
+    .acknowledgment-container {
+      text-align: center;
+      padding: 50px;
+      background-color: #f9f9f9;
+    }
+
+    h1, p {
+      color: #333;
+    }
+
+    .acknowledgment-container h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #000000; /* Black for contrast */
+    }
+
+    .acknowledgment-container p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .acknowledgment-container .thank-you {
+      color: #FFFFFF; /* Brightest white */
+      background-color: #000; /* Black background */
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
+
+    .acknowledgment-container .thank-you:hover {
+      background-color: #555;
+    }
+  </style>
+
+  <!-- Acknowledgment content -->
+  <div class="acknowledgment-container">
+    <h1>Acknowledgment</h1>
+    <p>
+      I would like to extend my heartfelt gratitude to everyone who has supported me throughout my journey in learning computer science and building this portfolio. This project would not have been possible without the guidance, encouragement, and collaboration of many individuals.
+    </p>
+    <p>
+      Special thanks to my Special thanks to my teacher Tom Hinkle, for teaching me coding, Chatgpt for helping me resolve problems when I though it was impossible, as well as Aidan Negga and Brandon Diaz for helping me understand new concepts
+    </p>
+    <p class="thank-you">
+      Thank you all!
+    </p>
+  </div>
+</project>
